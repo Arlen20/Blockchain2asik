@@ -84,3 +84,14 @@ This project is licensed under the MIT License.
 go
 
 This should be ready to copy-paste into your `README.md` file for GitHub.
+
+
+##Images
+![Screenshot 2025-01-09 224024](https://github.com/user-attachments/assets/84ada5f2-73ee-4f56-abad-f7835499f078)
+![Screenshot 2025-01-09 223947](https://github.com/user-attachments/assets/815a7245-b4e8-4e59-b676-2a2637fd3296)
+![Screenshot 2025-01-09 223917](https://github.com/user-attachments/assets/7e3712d3-05c9-49aa-b0be-3187dbbfc1e6)
+![Screenshot 2025-01-09 223141](https://github.com/user-attachments/assets/54486f42-0220-4a3a-8790-c01e3b5eee8c)
+![Screenshot 2025-01-09 223033](https://github.com/user-attachments/assets/91db5d3a-17a8-46f6-972c-f9fc7ffe775e)
+![Screenshot 2025-01-09 223022](https://github.com/user-attachments/assets/75d87f1a-7e27-4e05-ac22-51ee46846772)
+![Screenshot 2025-01-09 222855](https://github.com/user-attachments/assets/2ea71de4-186f-4c03-b7cc-32732aa1aef9)
+
