@@ -97,7 +97,11 @@ Next run npx hardhut node to get all accounts with privat keys
 
 
 ![Screenshot 2025-01-09 223141](https://github.com/user-attachments/assets/54486f42-0220-4a3a-8790-c01e3b5eee8c)
+here you can see all functions is correctly working
 ![Screenshot 2025-01-09 223033](https://github.com/user-attachments/assets/91db5d3a-17a8-46f6-972c-f9fc7ffe775e)
+
+here all previously added models
 ![Screenshot 2025-01-09 223022](https://github.com/user-attachments/assets/75d87f1a-7e27-4e05-ac22-51ee46846772)
+
 
 
