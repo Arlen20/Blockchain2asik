@@ -37,17 +37,17 @@ Clone the repository to your local machine:
 
 git clone https://github.com/yourusername/ai-model-marketplace.git
 cd ai-model-marketplace
-2. Install Dependencies
+## 2. Install Dependencies
 Install the required dependencies:
 
 
 npm install
-3. Compile the Smart Contract
+## 3. Compile the Smart Contract
 To compile the smart contract, run:
 
 
 npx hardhat compile
-4. Deploy the Smart Contract
+## 4. Deploy the Smart Contract
 Start the local Ethereum node:
 
 
@@ -58,7 +58,7 @@ In a new terminal, deploy the contract:
 npx hardhat run scripts/deploy.js --network localhost
 Take note of the contract address displayed after deployment.
 
-5. Connect Frontend to Smart Contract
+## 5. Connect Frontend to Smart Contract
 In frontend/app.js, replace YOUR_CONTRACT_ADDRESS with the deployed contract address and add the contract's ABI to the contractABI variable.
 
 
@@ -66,14 +66,14 @@ const contractAddress = "YOUR_CONTRACT_ADDRESS";
 const contractABI = [
   // Contract ABI goes here
 ];
-6. Run the Frontend
+## 6. Run the Frontend
 To serve the frontend on your local server, use Python's HTTP server (ensure you're in the frontend folder):
 
 
 python -m http.server
 Visit http://localhost:8000 to interact with the AI Model Marketplace dApp.
 
-Usage
+## Usage
 Listing Models: You can list AI models by interacting with the smart contract using the addModel function.
 Purchasing Models: Use the purchaseModel function to buy AI models listed on the platform.
 Rating Models: Rate AI models after purchase using the rateModel function.
