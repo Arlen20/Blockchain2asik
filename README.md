@@ -1,5 +1,7 @@
 # AI Model Marketplace (dApp)
 
+Done by SE-2315: Baibossyn Arlen, Tlegenova Kamilya, Nuray Kabylkhanova.
+
 This project is a decentralized application (dApp) for an AI Model Marketplace. It allows users to browse, purchase, and rate AI models on the Ethereum blockchain.
 
 ---
