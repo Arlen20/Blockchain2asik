@@ -1,0 +1,159 @@
+/* General Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f9;
+	color: #333;
+	line-height: 1.6;
+	padding: 20px;
+}
+
+/* Header Styling */
+header {
+	text-align: center;
+	padding: 20px;
+	background-color: #1d3557;
+	color: white;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+header h1 {
+	font-size: 2.5rem;
+	margin-bottom: 10px;
+}
+
+header button {
+	background-color: #e63946;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+header button:hover {
+	background-color: #d62828;
+}
+
+header p {
+	font-size: 1.1rem;
+	margin-top: 10px;
+}
+
+/* Main Section Styling */
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+/* Model Listing and Form Styling */
+section {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+	font-size: 1.8rem;
+	margin-bottom: 15px;
+	color: #1d3557;
+}
+
+#listModelForm input,
+#listModelForm textarea,
+#rateModelForm input {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+#listModelForm textarea {
+	height: 100px;
+	resize: none;
+}
+
+button[type='submit'] {
+	background-color: #2a9d8f;
+	color: white;
+	padding: 12px 25px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.1rem;
+	cursor: pointer;
+}
+
+button[type='submit']:hover {
+	background-color: #264653;
+}
+
+/* Model List Styling */
+#modelList {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.model {
+	background-color: #ffffff;
+	padding: 15px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.model h3 {
+	font-size: 1.5rem;
+	color: #1d3557;
+}
+
+.model p {
+	font-size: 1.1rem;
+	margin: 10px 0;
+}
+
+.purchaseButton {
+	background-color: #e63946;
+	color: white;
+	padding: 8px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.purchaseButton:hover {
+	background-color: #d62828;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+	body {
+		padding: 10px;
+	}
+
+	header h1 {
+		font-size: 2rem;
+	}
+
+	section h2 {
+		font-size: 1.5rem;
+	}
+
+	button[type='submit'] {
+		padding: 10px 20px;
+	}
+
+	.model {
+		padding: 12px;
+	}
+}

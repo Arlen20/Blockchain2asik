@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>AI Model Marketplace</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<h1>AI Model Marketplace</h1>
+			<button id="connectWalletButton">Connect Wallet</button>
+			<p id="walletAddress"></p>
+		</header>
+
+		<main>
+			<section>
+				<h2>List a New Model</h2>
+				<form id="listModelForm">
+					<input type="text" id="modelName" placeholder="Model Name" required />
+					<textarea
+						id="modelDescription"
+						placeholder="Model Description"
+						required
+					></textarea>
+					<input
+						type="number"
+						id="modelPrice"
+						placeholder="Model Price (ETH)"
+						required
+					/>
+					<button type="submit">List Model</button>
+				</form>
+			</section>
+
+			<section>
+				<h2>Available Models</h2>
+				<div id="modelList">
+					<!-- Placeholder Model Listings -->
+					<div class="model">
+						<h3>Model: Sentiment Analyzer</h3>
+						<p>Description: A model that analyzes sentiment in text data.</p>
+						<p>Price: 1.5 ETH</p>
+						<button class="purchaseButton">Purchase</button>
+					</div>
+					<div class="model">
+						<h3>Model: Object Detector</h3>
+						<p>Description: Detects objects in images with high accuracy.</p>
+						<p>Price: 2.0 ETH</p>
+						<button class="purchaseButton">Purchase</button>
+					</div>
+					<div class="model">
+						<h3>Model: Language Translator</h3>
+						<p>Description: Translates text between multiple languages.</p>
+						<p>Price: 3.0 ETH</p>
+						<button class="purchaseButton">Purchase</button>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<h2>Rate a Model</h2>
+				<form id="rateModelForm">
+					<input type="number" id="modelId" placeholder="Model ID" required />
+					<input
+						type="number"
+						id="modelRating"
+						placeholder="Rating (1-5)"
+						required
+					/>
+					<button type="submit">Rate Model</button>
+				</form>
+			</section>
+		</main>
+
+		<script src="app.js"></script>
+	</body>
+</html>
